@@ -13,6 +13,7 @@
 		619B6CEA211C1C0B00F91683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619B6CE9211C1C0B00F91683 /* Assets.xcassets */; };
 		619B6CED211C1C0B00F91683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619B6CEB211C1C0B00F91683 /* LaunchScreen.storyboard */; };
 		619B6CF8211C1C0B00F91683 /* SwiftBasisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B6CF7211C1C0B00F91683 /* SwiftBasisUITests.swift */; };
+		619B6D03211C2EA700F91683 /* LableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B6D02211C2EA700F91683 /* LableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		619B6CF3211C1C0B00F91683 /* SwiftBasisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBasisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		619B6CF7211C1C0B00F91683 /* SwiftBasisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasisUITests.swift; sourceTree = "<group>"; };
 		619B6CF9211C1C0B00F91683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619B6D02211C2EA700F91683 /* LableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				619B6CE2211C1C0900F91683 /* AppDelegate.swift */,
 				619B6CE4211C1C0900F91683 /* ViewController.swift */,
+				619B6D02211C2EA700F91683 /* LableViewController.swift */,
 				619B6CE6211C1C0900F91683 /* Main.storyboard */,
 				619B6CE9211C1C0B00F91683 /* Assets.xcassets */,
 				619B6CEB211C1C0B00F91683 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				619B6CE5211C1C0900F91683 /* ViewController.swift in Sources */,
+				619B6D03211C2EA700F91683 /* LableViewController.swift in Sources */,
 				619B6CE3211C1C0900F91683 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
