@@ -12,6 +12,7 @@
 		6149DADE211D629A00389798 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149DADD211D629A00389798 /* TextFieldViewController.swift */; };
 		6149DAE0211D773700389798 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149DADF211D773700389798 /* SearchBarViewController.swift */; };
 		6149DAE2211D831600389798 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149DAE1211D831600389798 /* ProgressViewController.swift */; };
+		6149DAE4211D899200389798 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149DAE3211D899200389798 /* SliderViewController.swift */; };
 		619B6CE3211C1C0900F91683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B6CE2211C1C0900F91683 /* AppDelegate.swift */; };
 		619B6CE5211C1C0900F91683 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B6CE4211C1C0900F91683 /* ViewController.swift */; };
 		619B6CE8211C1C0900F91683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619B6CE6211C1C0900F91683 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		6149DADD211D629A00389798 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 		6149DADF211D773700389798 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		6149DAE1211D831600389798 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		6149DAE3211D899200389798 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 		619B6CDF211C1C0900F91683 /* SwiftBasis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBasis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		619B6CE2211C1C0900F91683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		619B6CE4211C1C0900F91683 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				6149DADD211D629A00389798 /* TextFieldViewController.swift */,
 				6149DADF211D773700389798 /* SearchBarViewController.swift */,
 				6149DAE1211D831600389798 /* ProgressViewController.swift */,
+				6149DAE3211D899200389798 /* SliderViewController.swift */,
 				619B6CE6211C1C0900F91683 /* Main.storyboard */,
 				619B6CE9211C1C0B00F91683 /* Assets.xcassets */,
 				619B6CEB211C1C0B00F91683 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6149DAE4211D899200389798 /* SliderViewController.swift in Sources */,
 				6149DAE0211D773700389798 /* SearchBarViewController.swift in Sources */,
 				6149DADA211D28F300389798 /* ButtonViewController.swift in Sources */,
 				619B6CE5211C1C0900F91683 /* ViewController.swift in Sources */,
