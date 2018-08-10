@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         self.navigationItem.title = "Swift Basis"
         self.view.backgroundColor = baseColor
         
-        dataArr = ["UILable", "UIButton"]
+        dataArr = ["UILable", "UIButton", "UIImageView"]
         p_setTableViewLayout()
     }
     
@@ -82,7 +82,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         tableView.reloadRows(at: [indexPath], with: UITableViewRowAnimation.fade)
         
-        let vcArr = [LableViewController(), ButtonViewController()]
+        let vcArr = [LableViewController(), ButtonViewController(), ImageViewController()]
         self.navigationController?.pushViewController(vcArr[indexPath.row], animated: true)
     }
     
