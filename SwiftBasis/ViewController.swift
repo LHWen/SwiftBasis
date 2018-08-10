@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         self.navigationItem.title = "Swift Basis"
         self.view.backgroundColor = baseColor
         
-        dataArr = ["UILable"]
+        dataArr = ["UILable", "UIButton"]
         p_setTableViewLayout()
     }
     
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             _tableView?.tableFooterView = UIView.init()
             _tableView?.delegate = self
             _tableView?.dataSource = self
-            _tableView?.separatorColor = baseColor
+            _tableView?.separatorColor = UIColor.gray
             _tableView?.separatorInset = UIEdgeInsetsMake(0, 13.0, 0, 0)
             _tableView?.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: baseCell)
             view.addSubview(_tableView!)
@@ -82,7 +82,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         tableView.reloadRows(at: [indexPath], with: UITableViewRowAnimation.fade)
         
-        let vcArr = [LableViewController()]
+        let vcArr = [LableViewController(), ButtonViewController()]
         self.navigationController?.pushViewController(vcArr[indexPath.row], animated: true)
     }
     

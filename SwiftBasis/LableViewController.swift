@@ -29,7 +29,6 @@ class LableViewController: UIViewController {
         cLable.isUserInteractionEnabled = true
         cLable.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(testLableClick)))
         view.addSubview(cLable)
-        
     }
     
     @objc func testLableClick() {
