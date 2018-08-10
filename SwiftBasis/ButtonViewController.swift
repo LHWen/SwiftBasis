@@ -53,7 +53,8 @@ class ButtonViewController: UIViewController {
     
     func setButtonLayout(titStr: String, bFrame: CGRect, bColor: UIColor, lColor: UIColor, tColor: UIColor, fSize: CGFloat, radius: CGFloat) -> UIButton {
         
-        let btn = UIButton.init(type: UIButtonType.custom)
+        // let btn = UIButton.init(type: UIButtonType.custom)
+        let btn: UIButton = UIButton(type: .custom)
         btn.frame = bFrame
         btn.setTitle(titStr, for: UIControlState.normal)
         btn.setTitleColor(tColor, for: UIControlState.normal)
