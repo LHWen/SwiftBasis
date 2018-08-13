@@ -20,6 +20,9 @@
 		619B6CED211C1C0B00F91683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619B6CEB211C1C0B00F91683 /* LaunchScreen.storyboard */; };
 		619B6CF8211C1C0B00F91683 /* SwiftBasisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B6CF7211C1C0B00F91683 /* SwiftBasisUITests.swift */; };
 		619B6D03211C2EA700F91683 /* LableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B6D02211C2EA700F91683 /* LableViewController.swift */; };
+		61B0562D2121173000B6F6EE /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B0562C2121173000B6F6EE /* SegmentedControlViewController.swift */; };
+		61B0562F2121178B00B6F6EE /* SegmentedOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B0562E2121178B00B6F6EE /* SegmentedOneViewController.swift */; };
+		61B056312121179400B6F6EE /* SegmentedTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B056302121179400B6F6EE /* SegmentedTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		619B6CF7211C1C0B00F91683 /* SwiftBasisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasisUITests.swift; sourceTree = "<group>"; };
 		619B6CF9211C1C0B00F91683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		619B6D02211C2EA700F91683 /* LableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LableViewController.swift; sourceTree = "<group>"; };
+		61B0562C2121173000B6F6EE /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
+		61B0562E2121178B00B6F6EE /* SegmentedOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedOneViewController.swift; sourceTree = "<group>"; };
+		61B056302121179400B6F6EE /* SegmentedTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				6149DADF211D773700389798 /* SearchBarViewController.swift */,
 				6149DAE1211D831600389798 /* ProgressViewController.swift */,
 				6149DAE3211D899200389798 /* SliderViewController.swift */,
+				61B0562C2121173000B6F6EE /* SegmentedControlViewController.swift */,
+				61B0562E2121178B00B6F6EE /* SegmentedOneViewController.swift */,
+				61B056302121179400B6F6EE /* SegmentedTwoViewController.swift */,
 				619B6CE6211C1C0900F91683 /* Main.storyboard */,
 				619B6CE9211C1C0B00F91683 /* Assets.xcassets */,
 				619B6CEB211C1C0B00F91683 /* LaunchScreen.storyboard */,
@@ -218,11 +227,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B056312121179400B6F6EE /* SegmentedTwoViewController.swift in Sources */,
 				6149DAE4211D899200389798 /* SliderViewController.swift in Sources */,
 				6149DAE0211D773700389798 /* SearchBarViewController.swift in Sources */,
 				6149DADA211D28F300389798 /* ButtonViewController.swift in Sources */,
+				61B0562D2121173000B6F6EE /* SegmentedControlViewController.swift in Sources */,
 				619B6CE5211C1C0900F91683 /* ViewController.swift in Sources */,
 				6149DAE2211D831600389798 /* ProgressViewController.swift in Sources */,
+				61B0562F2121178B00B6F6EE /* SegmentedOneViewController.swift in Sources */,
 				6149DADE211D629A00389798 /* TextFieldViewController.swift in Sources */,
 				6149DADC211D3A3E00389798 /* ImageViewController.swift in Sources */,
 				619B6D03211C2EA700F91683 /* LableViewController.swift in Sources */,
