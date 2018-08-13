@@ -26,6 +26,7 @@
 		61B056332121545700B6F6EE /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B056322121545700B6F6EE /* ActivityViewController.swift */; };
 		61B0563521215F0400B6F6EE /* CollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B0563421215F0400B6F6EE /* CollectionViewViewController.swift */; };
 		61B05637212163DF00B6F6EE /* TCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B05636212163DF00B6F6EE /* TCollectionViewCell.swift */; };
+		61B056392121756200B6F6EE /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B056382121756100B6F6EE /* DatePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		61B056322121545700B6F6EE /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		61B0563421215F0400B6F6EE /* CollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewViewController.swift; sourceTree = "<group>"; };
 		61B05636212163DF00B6F6EE /* TCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCollectionViewCell.swift; sourceTree = "<group>"; };
+		61B056382121756100B6F6EE /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				61B056322121545700B6F6EE /* ActivityViewController.swift */,
 				61B0563421215F0400B6F6EE /* CollectionViewViewController.swift */,
 				61B05636212163DF00B6F6EE /* TCollectionViewCell.swift */,
+				61B056382121756100B6F6EE /* DatePickerViewController.swift */,
 				619B6CE6211C1C0900F91683 /* Main.storyboard */,
 				619B6CE9211C1C0B00F91683 /* Assets.xcassets */,
 				619B6CEB211C1C0B00F91683 /* LaunchScreen.storyboard */,
@@ -240,6 +243,7 @@
 				6149DAE4211D899200389798 /* SliderViewController.swift in Sources */,
 				61B05637212163DF00B6F6EE /* TCollectionViewCell.swift in Sources */,
 				6149DAE0211D773700389798 /* SearchBarViewController.swift in Sources */,
+				61B056392121756200B6F6EE /* DatePickerViewController.swift in Sources */,
 				6149DADA211D28F300389798 /* ButtonViewController.swift in Sources */,
 				61B0562D2121173000B6F6EE /* SegmentedControlViewController.swift in Sources */,
 				619B6CE5211C1C0900F91683 /* ViewController.swift in Sources */,
