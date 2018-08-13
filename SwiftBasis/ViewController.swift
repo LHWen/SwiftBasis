@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         self.navigationItem.title = "Swift Basis"
         self.view.backgroundColor = baseColor
         
-        dataArr = ["UILable", "UIButton", "UIImageView", "UITextField", "UISearchBar", "UIProgressView", "UISlider", "SegmentedControl"]
+        dataArr = ["UILable", "UIButton", "UIImageView", "UITextField", "UISearchBar", "UIProgressView", "UISlider", "SegmentedControl", "UIActivityIndicatorView"]
         p_setTableViewLayout()
     }
     
@@ -89,7 +89,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                      SearchBarViewController(),
                      ProgressViewController(),
                      SliderViewController(),
-                     SegmentedControlViewController()]
+                     SegmentedControlViewController(),
+                     ActivityViewController()]
         self.navigationController?.pushViewController(vcArr[indexPath.row], animated: true)
     }
     

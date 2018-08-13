@@ -83,6 +83,7 @@ class SegmentedControlViewController: UIViewController {
                 newVC.didMove(toParentViewController: self)
                 oldVC.willMove(toParentViewController: nil)
                 oldVC.removeFromParentViewController()
+//                oldVC.view.removeFromSuperview()
                 self.currentVC = newVC
             } else {
                 self.currentVC = oldVC
