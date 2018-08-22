@@ -29,6 +29,12 @@ class LableViewController: UIViewController {
         cLable.isUserInteractionEnabled = true
         cLable.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action: #selector(testLableClick)))
         view.addSubview(cLable)
+        
+        let dottedLineF = CGRect(x: 0, y: 10, width: self.view.bounds.size.width/2, height: 1)
+        let dottedLine = DottedLine.init(frame: dottedLineF)
+        dottedLine.lineColor = .red
+        dottedLine.backgroundColor = UIColor.white
+        view.addSubview(dottedLine)
     }
     
     @objc func testLableClick() {

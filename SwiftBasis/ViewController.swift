@@ -24,6 +24,30 @@ class ViewController: UIViewController {
         
         dataArr = ["UILable", "UIButton", "UIImageView", "UITextField", "UISearchBar", "UIProgressView", "UISlider", "SegmentedControl", "UIActivityIndicatorView", "UICollectionView", "DatePicker"]
         p_setTableViewLayout()
+        
+//        testString(toConvert: "0X2390342")
+        testString(toConvert: "#effi00")
+    }
+    
+    func testString(toConvert: String) {
+        var cString: String = toConvert.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines).uppercased()
+        // strip 0X if it appears
+        if cString.hasPrefix("0X") {
+            cString = String(cString.suffix(from: cString.index(cString.startIndex, offsetBy: 2)))
+            print("test string is \(cString)")
+        }
+        if cString.hasPrefix("#") {
+            cString = String(cString.suffix(from: cString.index(cString.startIndex, offsetBy: 1)))
+            print("test string # is \(cString)")
+            
+            let startIndex = cString.index(cString.startIndex, offsetBy: 1)
+            let endIndex = cString.index(startIndex, offsetBy: 3)
+            
+            let tct = cString[startIndex ..< endIndex]
+            
+            print("c String ffi : \(tct)")
+        }
+        
     }
     
     // set table view

@@ -25,7 +25,6 @@ class CollectionViewViewController: UIViewController {
         
         dataArr = ["第一项", "第二项", "第三项", "第四项", "第五项", "第六项", "第七项", "第八项", "第九项"]
         setCollectionViewLayout()
-        
     }
     
     func setCollectionViewLayout() {

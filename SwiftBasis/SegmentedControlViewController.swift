@@ -89,7 +89,6 @@ class SegmentedControlViewController: UIViewController {
                 self.currentVC = oldVC
             }
         }
-        
     }
     
     override func didReceiveMemoryWarning() {

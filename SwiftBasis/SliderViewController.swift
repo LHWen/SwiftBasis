@@ -26,7 +26,6 @@ class SliderViewController: UIViewController {
         slider.thumbTintColor = UIColor.gray // 滑块颜色
         slider.addTarget(self, action: #selector(sliderValueChange(sender:)), for: .valueChanged)
         view.addSubview(slider)
-        
     }
 
     @objc func sliderValueChange(sender: UISlider) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61427C23212D5E680056A724 /* DottedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61427C22212D5E670056A724 /* DottedLine.swift */; };
 		6149DADA211D28F300389798 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149DAD9211D28F300389798 /* ButtonViewController.swift */; };
 		6149DADC211D3A3E00389798 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149DADB211D3A3E00389798 /* ImageViewController.swift */; };
 		6149DADE211D629A00389798 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149DADD211D629A00389798 /* TextFieldViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61427C22212D5E670056A724 /* DottedLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedLine.swift; sourceTree = "<group>"; };
 		6149DAD9211D28F300389798 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 		6149DADB211D3A3E00389798 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		6149DADD211D629A00389798 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				61B0563421215F0400B6F6EE /* CollectionViewViewController.swift */,
 				61B05636212163DF00B6F6EE /* TCollectionViewCell.swift */,
 				61B056382121756100B6F6EE /* DatePickerViewController.swift */,
+				61427C22212D5E670056A724 /* DottedLine.swift */,
 				619B6CE6211C1C0900F91683 /* Main.storyboard */,
 				619B6CE9211C1C0B00F91683 /* Assets.xcassets */,
 				619B6CEB211C1C0B00F91683 /* LaunchScreen.storyboard */,
@@ -251,6 +254,7 @@
 				61B0562F2121178B00B6F6EE /* SegmentedOneViewController.swift in Sources */,
 				61B056332121545700B6F6EE /* ActivityViewController.swift in Sources */,
 				61B0563521215F0400B6F6EE /* CollectionViewViewController.swift in Sources */,
+				61427C23212D5E680056A724 /* DottedLine.swift in Sources */,
 				6149DADE211D629A00389798 /* TextFieldViewController.swift in Sources */,
 				6149DADC211D3A3E00389798 /* ImageViewController.swift in Sources */,
 				619B6D03211C2EA700F91683 /* LableViewController.swift in Sources */,
